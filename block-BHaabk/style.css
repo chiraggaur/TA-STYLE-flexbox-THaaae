@@ -46,95 +46,110 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* custom Styles */
 
-/* custome css */
+*,
+*::before,
+*::after {
+
+    box-sizing: border-box;
+}
+
 body{
-    /* background-color: black; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
-.header{
- border: 2px solid white;
- /* color: black; */
+.head{
+    background-color: lightcoral;
+}
+
+/* General */
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 32px  ;
+    display: flex ;
+   justify-content: space-around;
+   /* background-color: blue; */
+   align-items: center;
 
 }
-.logo_lembo{
-  width: 30%;
-  height: 200px;
-  border-radius: 50%;
-  vertical-align: middle;
+
+.image_1{
+
+    width: 200px;
+    height: 100px;
+    margin: 20px 0;
 }
-.nav_container{
-    display: inline-block;
-    /* border: 2px solid black; */
-    width: 68%;
-    text-align: right;
-}
-.nav_text{
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+.nav{
+    /* margin: 20px; */
+    padding: 0 32px  ;
     text-decoration: none;
-
-}
-.article1{
-    padding: 20px;
-    display: inline-block;
-    width: 50%;
-    vertical-align: middle;
-}
-.header_2{
-    font-size: 30px;
-}
-.para1{
+    color: aliceblue;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 30px;
+}
+.col-1{
+    width: 50%;
+}
+.col-2{
+    width: 50%;
+}
 
+h1{
+
+    font-size: 30px;
+    padding: 10px 0;
+    margin: 20px;
+
+}
+p {
+    font-size: 15px;
+    margin: 20px;
 }
 .image1{
-    display: inline-block;
-    width: 40%;
-}
-.lembo_img1{
-    width: 500px;
-    height: 350px;
-    vertical-align: middle;
+
+    width:100%;
+    padding: 32px 0;
     margin: 20px;
-    /* padding: 20px; */
-    border-radius: 8px;
 }
-.row_1{
+
+.article{
+         
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 32px  ;
+    display: flex ;
+   justify-content: space-around;
+
+}
+
+h2{
+    font-size: 40px;
+
+}
+.article-2{
+    max-width: 1330px;
+    margin: 50px auto;
+    padding: 0 32px  ;
+    display: flex ;
+   justify-content: space-around;
+   
+}
+.gallery_head{
+    /* margin: 0 auto; */
     /* border: 2px solid black; */
-    padding: 30px;
-    /* background-color: black; */
-    border-radius: 20px;
-    margin: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.gallery1{
-
-    display: inline-block;
-    width: 30%;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    vertical-align: middle;
-
+.gallery{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.gallery2{
-    
-    display: inline-block;
+.gal1-3{
     width: 30%;
-    padding: 10px;
-    border-radius: 20px;
     margin: 10px;
-    vertical-align: middle;
-}
-
-.gallery3{
-    
-    display: inline-block;
-    width: 30%;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    vertical-align: middle;
 }
