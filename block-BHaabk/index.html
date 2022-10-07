@@ -1,0 +1,99 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+
+ <!--  HTML CODE  -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lamborghini</title>
+    <link rel="stylesheet" href="style.css"/>
+ </head>
+ <body>
+      <header class="head" >
+        <div class="container">
+            <div>
+                <img class="image_1"  src ="logo.jpg" alt="lambo image">
+             </div>
+             <nav >
+                 
+                <a class="nav" href="#"> Home </a>
+                <a class="nav" href="#"> Sign In </a>
+                <a class="nav" href="#"> Visit Us </a>
+                <a class="nav" href="#"> Store Locator </a>
+             </nav>
+
+        </div>
+      </header>
+      <main>
+        <section>
+            <article class=" article ">
+
+                <div class="col-1">
+
+                    <h1> OVERVIEW </h1>
+
+                    <p>
+
+                        Exclusivity and sophistication distinguish the interior of this latest masterpiece of the Aventador range. Premium yet practical materials like carbon fiber are employed for the most important finishes, while Alcantara® upholstery, laser-cut with a Y motif to let the colorful backing peek through, give the luxurious passenger compartment a distinctive touch.
+                        These refined fittings are embellished with a carbon fiber plate displaying the number of units of this limited series.
+                        A range of brand-new Ad Personam combinations further enhances the Aventador LP 780-4 Ultimae.
+
+                    </p>
+                    
+                </div>
+
+                <div class="col-2">
+
+                    <img class="image1" src="image1.jpg" alt="car1" >
+
+                </div>
+
+            </article>
+            <article>
+ 
+                <div class="gallery_head">
+
+                    <h2 > Gallery </h2>
+
+               </div>
+             
+            </article>
+
+
+            <article class=" article-2">
+            
+
+                <div class="gallery">
+                     <img class="gal1-3"src="gallery_2.jpeg" alt="gallery">
+                     <img class="gal1-3"src="gallery_2.jpeg" alt="gallery">
+                     <img class="gal1-3"src="gallery_2.jpeg" alt="gallery">
+                     <img class="gal1-3"src="gallery_2.jpeg" alt="gallery">
+                     <img class="gal1-3"src="gallery_2.jpeg" alt="gallery">
+                     <img class="gal1-3"src="gallery_2.jpeg" alt="gallery">
+                </div>
+
+            </article>
+
+        </section>
+
+      </main>
+
+ 
+ </body>
+ </html>
